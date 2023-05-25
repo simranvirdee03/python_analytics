@@ -12,3 +12,4 @@ with open('model_pickle','wb') as f:
 with open('model_pickle','rb') as f:
     mp=pickle.load(f)
 mp.predict([[2030]])
+print("It works")
