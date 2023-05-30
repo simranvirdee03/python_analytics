@@ -30,7 +30,11 @@ class QuestionsProvider {
           "Command to show information about the current Git repository",
 =======
           "Which command shows information about the current Git repository?",
+<<<<<<< HEAD
 >>>>>>> questions-reorder
+=======
+>>>>>>> 04b7fa5 (Reordering questions)
+>>>>>>> nya
           [
             Answer("git stats"),
             Answer("git info"),
@@ -84,7 +88,11 @@ class QuestionsProvider {
             Answer("git initialize"),
           ],
           1,
+<<<<<<< HEAD
 >>>>>>> questions-reorder
+=======
+>>>>>>> 04b7fa5 (Reordering questions)
+>>>>>>> nya
         )
     );
   }
