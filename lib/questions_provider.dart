@@ -14,6 +14,7 @@ class QuestionsProvider {
   void _initQuestions() {
     _questions.add(
         Question(
+<<<<<<< HEAD
           "Command to initialize new local Git repository",
           [
             Answer("git create"),
@@ -27,6 +28,9 @@ class QuestionsProvider {
     _questions.add(
         Question(
           "Command to show information about the current Git repository",
+=======
+          "Which command shows information about the current Git repository?",
+>>>>>>> 04b7fa5 (Reordering questions)
           [
             Answer("git stats"),
             Answer("git info"),
@@ -38,6 +42,7 @@ class QuestionsProvider {
     );
     _questions.add(
         Question(
+<<<<<<< HEAD
           "Command to stage files for commit",
           [
             Answer("git add"),
@@ -70,6 +75,16 @@ class QuestionsProvider {
             Answer("git reset"),
           ],
           3,
+=======
+          "Which command initializes new Git repository?",
+          [
+            Answer("git create"),
+            Answer("git init"),
+            Answer("git start"),
+            Answer("git initialize"),
+          ],
+          1,
+>>>>>>> 04b7fa5 (Reordering questions)
         )
     );
   }
